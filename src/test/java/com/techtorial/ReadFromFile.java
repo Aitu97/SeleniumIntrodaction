@@ -32,8 +32,6 @@ public class ReadFromFile {
 
     }
 
-
-
         public static String getProperties (String key) throws IOException {
             // specify the needed file
             File credsFile = new File("src/test/Resources/Credentials.properties");

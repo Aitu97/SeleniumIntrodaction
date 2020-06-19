@@ -37,11 +37,11 @@ public class ExpediaProject {
         whereToFly.click();
 
         WebElement returningDate = driver.findElement(By.xpath("//input[@id='flight-returning-hp-flight']"));
-        returningDate.sendKeys("12/10/19");
+        returningDate.sendKeys("02/10/20");
         returningDate.click();
 
         WebElement departingDate = driver.findElement(By.xpath("//input[@id='flight-departing-hp-flight']"));
-        departingDate.sendKeys("12/20/19");
+        departingDate.sendKeys("01/20/20");
         departingDate.click();
         Thread.sleep(3000);
 
